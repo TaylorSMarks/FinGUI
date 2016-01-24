@@ -1,3 +1,23 @@
+0.2.0 (Jan. 23, 2016)
+
+    * Created Menu class. It's a non-native alternative to Tk's Menu class
+                          which is easier to control/mix with other Tk elements.
+    * Created Popup class. Easy way to display secondary, floating, featureless
+                           windows. The Menu class utilizes them.
+    * Created event concept. Anything marked with the @event decorator can be
+                             observed in any of the following ways:
+                             1 - By subclasses, as always.
+                             2 - By whatever is assigned to instance.delegate.
+                             3 - By calling bind<name of event>(functionToCall)
+    * Entry class has the events: onChange, onReturn, onUp,
+                                  onDown,   onFocus,  onFocusLost.
+    * Menu  class has the events: onHighlight, onSelect.
+
+0.1.1 (Jan. 16, 2016, a few seconds later)
+
+    * Fixed broken import statement
+
 0.1.0 (Jan. 16, 2016)
 
     * Initial commit
+    * Created Entry class.

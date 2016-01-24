@@ -47,6 +47,8 @@ Note the boilerpoint we didn't deal with, because it's all automatically handled
 
 Also note that ``Entry`` has a ``set()`` method! Unlike the variant in ``Tkinter``, ours has the methods you would expect.
 
+The toplevel example.py file demonstrates how you can combine the ``Entry`` and ``Menu`` classes to quickly make a polished ``AutocompletePathEntry`` class in under 50 lines of code.
+
 Documentation
 -------------
 I've tried to include docstrings with all the functions and classes, so things like this should work:
