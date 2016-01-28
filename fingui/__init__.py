@@ -1,4 +1,5 @@
 from entry import Entry
+from label import Label
 from menu  import Menu
 from popup import Popup
 

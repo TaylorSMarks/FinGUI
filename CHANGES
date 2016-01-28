@@ -1,3 +1,8 @@
+0.2.1 (Jan. 27, 2016)
+
+    * Created Label class. Takes an initial (optional) value. Has a set method.
+                           Pretty simple. Doesn't warrant numbering this 0.3.0.
+
 0.2.0 (Jan. 23, 2016)
 
     * Created Menu class. It's a non-native alternative to Tk's Menu class
