@@ -1,3 +1,9 @@
+0.2.2 (Jan. 30, 2016)
+
+    * Created ProgressBar class. Takes a maximum value and length. Has a step
+                                 method. Set maximum to 0 for indeterminate.
+                                 Pretty simple. Still doesn't warrant a 0.3.0.
+
 0.2.1 (Jan. 27, 2016)
 
     * Created Label class. Takes an initial (optional) value. Has a set method.

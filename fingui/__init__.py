@@ -1,7 +1,8 @@
-from entry import Entry
-from label import Label
-from menu  import Menu
-from popup import Popup
+from entry       import Entry
+from label       import Label
+from menu        import Menu
+from popup       import Popup
+from progressbar import ProgressBar
 
 import sys
 
