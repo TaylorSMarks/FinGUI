@@ -1,3 +1,8 @@
+0.2.3 (Jan. 31, 2016)
+
+    * ProgressBar now renders anything 100% or more full as exactly 100% full.
+    * Fixed bug in ProgressBar that it wouldn't update with heavy CPU load.
+
 0.2.2 (Jan. 30, 2016)
 
     * Created ProgressBar class. Takes a maximum value and length. Has a step
